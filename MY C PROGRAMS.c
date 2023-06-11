@@ -23,6 +23,7 @@
 //	  printf("\ndvd of two nums: %d",dvd);
 //	mud=a%b;
 //	  printf("\nmud of two nums: %d",mud);
+
 ////PROGRAM 2:AREA OF A CIRCLE:
 //   float r;
 //   printf("enter the radius of circle:");
@@ -180,7 +181,7 @@
 //  			
 ////  PROGRAM 12:TO REVERSE A NUMBER:
   
-//// 123
+////  123
 ////   123%10=3 P      523					N			4567  					N			
 ////   123/10=12	   523%10=3 P			N%10 P			4567%10=7 p				N%10  P
 ////   12%10=2 P	   523/10=52			N/10 =m			4567/10=456=q			N/10=Q
@@ -197,10 +198,10 @@
 //	printf("%d",j/10);
 //int i,j=0,k;
 //	printf("enter the number u want to reverse:");				
-//    	scanf("%d",&i);									//	321
-//    														while(32>1)    while(32>1)		while(3>1)
-//			while(i>1){								//	k=	321%10=1		k=	32%10=2	   	k= 3%10=0
-//				k=i%10;								//	j=	0*10+1=1		j=	1*10+2=12	j=	12*10+0=120
+//    	scanf("%d",&i);							    	//	321
+//    												//	 while(32>1)     while(32>1)	   	while(3>1)
+//			while(i>1){								// 	k=	321%10=1		k=	32%10=2	   	k= 3%10=0
+//				k=i%10;								//	j=	0*10+1=1p		j=	1*10+2=12p	j=	12*10+3=123p
 //				j=j*10+k;							//	i=	321/10=32		i=	32/10=3		i=	3/10=0
 //				i=i/10;																		condition false 
 //		}												
@@ -281,13 +282,13 @@
 ////The smallest perfect number is 6, which is the sum of 1, 2, and 3. 
 ////Other perfect numbers are 28, 496, and 8,128. /*
 							
-// int n,i,m,rem,sum=0;
+//  int n,i,m,rem,sum=0;
 //	printf("enter a number:");
 //	scanf("%d",&n);
 //		m=n/2;
 //      for (i=1;i<=m;i++){
 //       	
-//       				rem=n%i;
+//       			rem=n%i;
 //			 	   if(rem==0) {
 //			 	   		sum=sum+i;
 //					}
@@ -305,9 +306,9 @@
 //int num, rem, sum = 0, i;  
  //take an input from the user.  
 //printf("Enter a number\n");  
-//scanf("%d", &num);      
- //find all divisors and add them  
-//for(i = 1; i < num; i++)  
+//scanf("%d", &num);     
+////find all divisors and add them:
+//          for(i = 1; i < num; i++)  
   //                  {  
     //                      rem = num % i;  
       //                    if (rem == 0)  
@@ -315,11 +316,11 @@
 		//								sum=sum+i; 
           //                             }  
             //            }  
-//if (sum == num)  
+//             if (sum == num)  
 //                  printf(" %d is a Perfect Number");  
-//           else  
+//             else  
 //                  printf("\n %d is not a Perfect Number"); 
-//	
+	
 ////PROGRAM 17:TO CHECK EXPONENTIAL OF A NUMBER:
 
 ////	#include <math.h>  
@@ -327,11 +328,11 @@
   
 //int main()  
 //{// Use the exp() function to compute the exponential value for e.  
-//    printf("The value for e raised to power 0 is    = %.6f \n", exp(0));  
+//    printf("The value for e raised to power 0 is      = %.6f \n", exp(0));  
 //    printf("The value for e raised to power 2 is      = %.6f \n", exp(2));  
 //    printf("The value for e raised to power 13 is     = %.6f \n", exp(13));  
-//    printf("The value for e raised to power 12.01 is     = %.6f \n", exp(12.01));  
-//    printf("The value for e raised to power -1 is   = %.6f \n", exp(-1));  
+//    printf("The value for e raised to power 12.01 is  = %.6f \n", exp(12.01));  
+//    printf("The value for e raised to power -1 is     = %.6f \n", exp(-1));  
 //    printf("The value for e raised to power -3.73 is  = %.6f \n", exp(-3.73));  
 //// Using .6f to print the result will return the answer up to 6th decimal place.  
 //	
@@ -341,7 +342,7 @@
 //	printf(" value of e raise to the power 10 is:%6f",exp(10));
 
 
-////PROGRMA 18: PROGRAM TO WRITE TABLE OF A NUMBER:
+////PROGRAM 18: PROGRAM TO WRITE TABLE OF A NUMBER:
 
 //	int i,n,m;
 // printf("Enter the number to check its table:");
@@ -351,7 +352,6 @@
 // 		for(i=1;i<=m;i++){
 // 				
 // 				printf("\n%d",n*i);
-//
 //		 }
 
 ////PROGRAM 19:TO GENERATE PERFECT NUMBER SERIES UPTO CERTAIN LIMIT:
@@ -364,7 +364,7 @@
 //	 for(i=1;i<=end;i++){
 //	 			sum=0;
 //			 for(j=1;j<i;j++){
-//			 	
+//		
 //	 				if(i%j==0)
 //					sum=sum+j;
 //					
@@ -423,6 +423,7 @@
 // 			
 // 			
 //		 }
+
 // //PROGRAM 21: TO GENERATE FIBONACCI SERIES:  1 1 2 3 5 8 13 21...sum of two previous digits
 
 // int i,n,sum=0,j;
@@ -433,9 +434,7 @@
 // 												//modified below
 // 				sum=sum+i;
 // 		printf(" %d ",sum);
-// 			 
-// 			
-// 			
+// 			 		
 //		 }
 
 
@@ -488,11 +487,12 @@
 //  				break;
 //  }
 //  	if(i==n)	
-//    	printf("its prime");
-//  	else
+//    	    printf("its prime");
+//  	else21	
 //  		printf("not a prime");
 //}
-//write a prgram which takeS Month number as an input from user and display no of days as output;
+
+////write a prgram which takeS Month number as an input from user and display no of days as output;
 	
 //int month;
 //printf("enter the month name:");
@@ -931,46 +931,47 @@
 //		}
 	//printf("sorted array in ascending order is given as:\n");
 //	for(i=0;i<size;i++)
-//	
+	
 //		printf("%d\n",arr[i]);
 
 
 
 // find greatest element in an array:
+//int i,j,a,size;
+//int arr[100];
 //		
 //	printf("enter the size of the array:");
+//        scanf("%d",&size);
 //	printf("enter the elements of the array\n");
-//		for(i=1;i<size;i++)
+//		for(i=1;i<size;i++){
 //			scanf("%d",&arr[i]);
-//			for(i=0;i<size;i++){
+//		}
+//			for(i=0;i<size;i++){						
 //				for(j=i+1;j<size;j++){
-//				 	if(arr[i]>arr[j]){
-//						
-//						a=arr[i];
+//				 	if(arr[i]>arr[j]){     
+//					   	a=arr[i];          
 //						arr[i]=arr[j];
 //						arr[j]=a;
 //						
-//					}	
+//					}		
 //					
-//					
-//					
-//				}
+//				}	
 //			
-//			
-//			
-//		}
+//     }
 //		
 //		for(i=0;i<size;i++)	{
 //			
-//				printf(" greatest element in the array is %d",arr[size-1]);
-//															break;
+//				printf("greatest element in the array is %d",arr[size-1]);
+//															 break;
 // 
 //					}
+//					
+//				}
 //
 ////TO PRINT SMALLEST NUMBER IN AN ARRAY:
 //
 //int i,a,j,size,arr[20];
-////printf("enter the size of the array:");
+//printf("enter the size of the array:");
 //	scanf("%d",&size);
 //	printf("enter the elements of the array\n");
 //	scanf("%d",&arr[i]);
@@ -994,12 +995,6 @@
 //			
 //		}
 //		
-//	//	for(i=0;i<size;i++)	{
-//			
-//		//		printf(" greatest element in the array is %d",arr[size-1]);
-////															break;
-// 
-//				//	}
 //
 //
 //for(i=0;i<size;i++)	{
@@ -1098,7 +1093,7 @@
 //       printf("not found!");
 
 
-//PROGRAM 32: TO PRINT FREQUENCY OF AN ELEMENT IN THE ARRAY:
+//PROGRAM 32: TO PRINT FREQUENCY OF A particular ELEMENT IN THE ARRAY of n elements:
 
 //	int i,key,size,count=0,flag=0;
 //	int arr[100];
@@ -1874,8 +1869,8 @@
 //	
 //		if(n%i==0)
 //
-//		  return 0;
-//			return 1;
+//		  return 1;
+//			return 0;
 //   
 //    }
 //    
@@ -2088,6 +2083,7 @@
 //     printf("smallest number is: %d",s);
 //    
 //   }
+
 //PROGRAM 69: TO SEARCH AN ELEMENT IN AN ARRAY OF N ELEMENTS 
 //USING LINEAR SEACRH USING FUNCTIONS:
 //int linearSearch(int arr[],int size,int key){
@@ -2239,49 +2235,49 @@
 
 // wrong
 
-int frqAll(int arr[],int size){
-	int i,j,flag=0;
-	int count;
-	for(i=0;i<size;i++){         
-    	count=1;
-   	for(j=i+1;j<size;j++){
-    		
-    		if(arr[i]==arr[j]){
-    			count++;   
-    			arr[j]=flag;
-			}													
-		}
-	
-             if(arr[i]!=flag)
-    			
-    			arr[i]=count;
-
-				
-		}
-		for(i=0;i<size;i++){
-			if(arr[i]!=flag)
-	            return arr[i];
-	}
-		
-
-}
-
-int main(){
-	int arr[100];
-	 int n,i;
- 	printf("enter the size of the array:");
- 	  scanf("%d",&n);
- 	printf("enter the elements of the array:\n" );
- 		for(i=0;i<n;i++){
- 	       scanf("%d",&arr[i]);
-		}
-		for(i=arr[0];i<arr[n];i++){
-        	int	z=frqAll(arr,n);
-	
-		printf("%d occurs %d times in the array\n",i,z);
-	}
-		
-}
+//int frqAll(int arr[],int size){
+//	int i,j,flag=0;
+//	int count;
+//	for(i=0;i<size;i++){         
+//    	count=1;
+//   	for(j=i+1;j<size;j++){
+//    		
+//    		if(arr[i]==arr[j]){
+//    			count++;   
+//    			arr[j]=flag;
+//			}													
+//		}
+//	
+//             if(arr[i]!=flag)
+//    			
+//    			arr[i]=count;
+//
+//				
+//		}
+//		for(i=0;i<size;i++){
+//			if(arr[i]!=flag)
+//	            return arr[i];
+//	}
+//		
+//
+//}
+//
+//int main(){
+//	int arr[100];
+//	 int n,i;
+// 	printf("enter the size of the array:");
+// 	  scanf("%d",&n);
+// 	printf("enter the elements of the array:\n" );
+// 		for(i=0;i<n;i++){
+// 	       scanf("%d",&arr[i]);
+//		}
+//		for(i=arr[0];i<arr[n];i++){
+//        	int	z=frqAll(arr,n);
+//	
+//		printf("%d occurs %d times in the array\n",i,z);
+//	}
+//		
+//}
 
 
 
@@ -2319,6 +2315,74 @@ int main(){
 //		}
 
 
+//int main(){
+	
+	
+//	int i,j;
+//
+//	int arr[2][3]={{1,3,5},{2,4,6}};
+//	
+//	
+//	for(i=0;i<2;i++){ 
+//		for(j=0;j<3;j++){
+//			printf("%d ",arr[i][j]);//1,3,5,2,4,6
+//			
+//		}
+//		printf("\n");//1 3 5
+//				     //2 4 6
+//		
+//	}
+//	return 0;
+//}
+	
+	
+	//taking input from user:
+	
+	  
+//    int rows, cols;
+//    int i,j;
+//     
+//    printf("Enter the number of rows and columns:\n");
+//    scanf("%d%d", &rows, &cols);
+//    
+//   int arr[rows][cols];
+//    printf("Enter the elements of the array:\n");
+//    
+//    // Loop through each row and column to get input from the user
+//    for(i = 0; i < rows; i++) {
+//
+//        for( j = 0; j < cols; j++) {
+//            scanf("%d", &arr[i][j]);
+//        }
+//    }
+//    
+//    printf("The entered 2D array is:\n");
+//    
+//    // Loop through each row and column to print out the array
+//    for( i = 0; i < rows; i++) {
+//        for( j = 0; j < cols; j++) {
+//            printf("%d ", arr[i][j]);
+//        }
+//        printf("\n");
+//    }
+//    
+//    return 0;
+//    
+//}
+
+
+//POINTERS:
+
+//SYNTAX AND DECLARING:
+
+int main(){
+
+//int x=10;
+//int *ptr;
+//ptr = &x;
+////printf("%d",ptr); //648757210//i.e adress of x;
+//
+//printf("%d",*ptr);//10 // i.e value of x;
 
 
 
@@ -2327,6 +2391,8 @@ int main(){
 
 
 
+
+}
 
 
 
